@@ -28,6 +28,6 @@ public class FirstRestAssuredAutomatedTest {
         then.statusCode(404);
 
 
-        given().when().get("https://swaggerpetstore.przyklady.javastart.pl/v2/pet/0").then().statusCode(404);
+        given().when().get("https://swaggerpetstore.przyklady.javastart.pl/v2/pet/{param}", "0").then().statusCode(404);
     }
 }
