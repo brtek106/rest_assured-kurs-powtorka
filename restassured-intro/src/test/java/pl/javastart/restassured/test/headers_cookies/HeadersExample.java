@@ -1,4 +1,4 @@
-package pl.javastart.restassured.test.headers;
+package pl.javastart.restassured.test.headers_cookies;
 
 import io.restassured.http.Cookie;
 
